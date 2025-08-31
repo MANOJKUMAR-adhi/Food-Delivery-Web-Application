@@ -1,76 +1,75 @@
 🚀 Food Delivery Web Application
-A full-stack web application built using HTML, CSS, JSP, Servlets, JDBC, and MySQL.
 
-
+[ A full-stack web application built using HTML, CSS, JSP, Servlets, JDBC, and MySQL. ]
 
 1. Introduction :
 
-• GrabIt is an online food delivery web application that allows users to browse restaurants, explore menus, place food orders, and get them delivered conveniently. The application provides a smooth and user-friendly interface for customers to order their favorite meals online in just a few clicks. The system integrates frontend technologies (HTML, CSS) with backend technologies (Java Servlets, JSP, JDBC) and a MySQL database to store user, restaurant, and order details.
+  • GrabIt is an online food delivery web application that allows users to browse restaurants, explore menus, place food orders, and get them delivered conveniently. The application provides a smooth and user-friendly interface for customers to order their favorite meals online in just a few clicks. The system integrates frontend technologies (HTML, CSS) with backend technologies (Java Servlets, JSP, JDBC) and a MySQL database to store user, restaurant, and order details.
 
 2. Objectives:
 
-• To develop a responsive and user-friendly food delivery platform.
+ • To develop a responsive and user-friendly food delivery platform.
 
-• To provide restaurant listings with menu details.
+ • To provide restaurant listings with menu details.
 
-• To enable users to add items to the cart and place orders.
+ • To enable users to add items to the cart and place orders.
 
-• To ensure secure login and order processing.
+ • To ensure secure login and order processing.
 
 3. Technologies Used:
 
-(i) Frontend:
+ (i) Frontend:
 
-• HTML5 – Structure of web pages.
+  • HTML5 – Structure of web pages.
 
-• CSS3 – Styling and responsiveness.
+  • CSS3 – Styling and responsiveness.
 
-(ii) Backend:
+ (ii) Backend:
 
-• Java Servlet & JSP – Server-side logic & dynamic page rendering.
+  • Java Servlet & JSP – Server-side logic & dynamic page rendering.
 
-• JDBC (Java Database Connectivity) – Database interaction.
+  • JDBC (Java Database Connectivity) – Database interaction.
 
-(iii) Database:
+ (iii) Database:
 
-• MySQL – Storage of user data, restaurant details, menu items, orders, and transaction details.
+  • MySQL – Storage of user data, restaurant details, menu items, orders, and transaction details.
 
-(iv) Tools & Server:
+ (iv) Tools & Server:
 
-• Apache Tomcat – Web server for running servlets and JSP.
+  • Apache Tomcat – Web server for running servlets and JSP.
 
-• Eclipse – IDE for development.
+  • Eclipse – IDE for development.
 
 4. System Architecture:
 
-• The system follows a 3-tier architecture:
+ • The system follows a 3-tier architecture:
 
-(i) Presentation Layer (Frontend) – HTML, CSS, JS (User interface).
+  (i) Presentation Layer (Frontend) – HTML, CSS, JS (User interface).
 
-(ii) Application Layer (Backend) – Java Servlets, JSP (Business logic).
+  (ii) Application Layer (Backend) – Java Servlets, JSP (Business logic).
 
-(iii) Database Layer – MySQL (Data storage).
+  (iii) Database Layer – MySQL (Data storage).
 
-(iv) Flow: User → Web Browser (UI) → Servlet/JSP → JDBC → MySQL Database
+  (iv) Flow: User → Web Browser (UI) → Servlet/JSP → JDBC → MySQL Database
 
 5. Modules of the Application
 
- (i). User Module:
+  (i). User Module:
 
          •User Registration & Login (Authentication).
          •Profile Management.
 
- (ii). Restaurant Module:
+  (ii). Restaurant Module:
 
          •View restaurant listings.
          •View restaurant details & menu..
 
- (iii). Cart Module:
+  (iii). Cart Module:
 
          •Add/remove menu items.
          •View cart summary (items, quantity, price).
 
- (iv). Order Module:
+  (iv). Order Module:
 
          •Place order with delivery details.
          •Select payment method (Cash on Delivery / Online).
@@ -79,7 +78,7 @@ A full-stack web application built using HTML, CSS, JSP, Servlets, JDBC, and MyS
 
 6. Database Design:
 
-• Main Tables (Example sample):
+  • Main Tables (Example sample):
 
             1.User – (userId, name, userName,email, password, phoneNumber, address)
             2.Restaurant – (restaurantId, name, location, rating,cuisineType)
@@ -89,53 +88,53 @@ A full-stack web application built using HTML, CSS, JSP, Servlets, JDBC, and MyS
             6.OrderItem – (orderItemId, orderId, menuId, quantity, price)
 8. Workflow
 
- 🔹 Homepage
+  🔹 Homepage
          • Restaurants and food items.
          • View popular restaurants.
  
- 🔹 Restaurant Listings
+  🔹 Restaurant Listings
          • Display of restaurants with ratings, cuisine, and delivery time.
  
- 🔹 Menu Page
+  🔹 Menu Page
          • Display of restaurant menu with categories.
          • Option to add items to cart.
          
- 🔹 Cart Page
+  🔹 Cart Page
          • View selected items.
          • Update quantity or remove items.
          • Order summary with subtotal, taxes, and delivery fee.
          
- 🔹 Checkout Page
+  🔹 Checkout Page
          • Enter delivery details.
          • Choose payment method.
          • Place final order.
          
- 🔹 Order Confirmation
+  🔹 Order Confirmation
          •Order confirmation message.
        
          
 8. Key Features:
 
-• User authentication (Login/Signup). 
+  • User authentication (Login/Signup). 
 
-• Restaurant and menu browsing.
+  • Restaurant and menu browsing.
 
-• Dynamic cart and checkout system.
+  • Dynamic cart and checkout system.
 
-• Real-time order summary.
+  • Real-time order summary.
 
-• Secure and scalable architecture.
+  • Secure and scalable architecture.
 
 9. Future Enhancements:
 
-• Live order tracking with delivery partner module.
+  • Live order tracking with delivery partner module.
 
-• AI-based food recommendations.
+  • AI-based food recommendations.
 
-• Admin dashboard for analytics.
+  • Admin dashboard for analytics.
 
-• Push notifications for order status.
+  • Push notifications for order status.
 
 10. Conclusion:
 
-• The GrabIt Food Delivery Web Application provides an efficient way for users to order food online from multiple restaurants. Using Java Servlets, JSP, and MySQL, the application ensures smooth order management and data handling. With a responsive UI built with HTML, CSS it enhances the user experience and brings convenience to customers.
+  • The GrabIt Food Delivery Web Application provides an efficient way for users to order food online from multiple restaurants. Using Java Servlets, JSP, and MySQL, the application ensures smooth order management and data handling. With a responsive UI built with HTML, CSS it enhances the user experience and brings convenience to customers.
