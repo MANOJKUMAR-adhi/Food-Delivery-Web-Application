@@ -15,23 +15,21 @@ GrabIt is an online food delivery web application that allows users to browse re
 
 •To enable users to add items to the cart and place orders.
 
-•To manage order history and delivery details efficiently.
-
 •To ensure secure login and order processing.
 
 3. Technologies Used:
 
 (i) Frontend:
 
-•HTML5 – Structure of web pages.
+• HTML5 – Structure of web pages.
 
-•CSS3 – Styling and responsiveness.
+• CSS3 – Styling and responsiveness.
 
 (ii) Backend:
 
-•Java Servlet & JSP – Server-side logic & dynamic page rendering.
+• Java Servlet & JSP – Server-side logic & dynamic page rendering.
 
-•JDBC (Java Database Connectivity) – Database interaction.
+• JDBC (Java Database Connectivity) – Database interaction.
 
 (iii) Database:
 
