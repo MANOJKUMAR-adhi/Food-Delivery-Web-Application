@@ -44,7 +44,7 @@
 
  • The system follows a 3-tier architecture:
 
-  (i) Presentation Layer (Frontend) – HTML, CSS, JS (User interface).
+  (i) Presentation Layer (Frontend) – HTML, CSS.
 
   (ii) Application Layer (Backend) – Java Servlets, JSP (Business logic).
 
@@ -80,12 +80,11 @@
 
   • Main Tables (Example sample):
 
-            1.User – (userId, name, userName,email, password, phoneNumber, address)
-            2.Restaurant – (restaurantId, name, location, rating,cuisineType)
-            3.Menu – (menuId, restaurantId, itemName, price, isAvailable)
-            4.Cart – (cart_id, user_id, menu_id, quantity)
-            5.Order– (orderId, userId, restaurantId, totalAmount, status, orderDate)
-            6.OrderItem – (orderItemId, orderId, menuId, quantity, price)
+            1.user        –    (userId, name, userName,email, password, phoneNumber, address,role,createdDate,lastLoginDate)
+            2.restaurant  –    (restaurantId, name, address,phoneNumber,rating,isActive,cusineType,eta,imagePath)
+            3.menu        –    (menuId, restaurantId, itemName,description,price,ratings,isAvailable,imagePath)
+            4.orders      –    (orderId, userId, restaurantId, totalAmount, status, orderDate,paymentMode,address)
+            5.ordersItem  –    (orderItemId, orderId, menuId, quantity, totalPrize)
 8. Workflow
 
   🔹 Homepage
